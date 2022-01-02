@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/white"
+    tools:context=".PaypalTest">
+
+
+    <Button
+        android:id="@+id/payer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payer 30$ de votre consultation"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp"
+        app:backgroundTint="#166BBB" />
+
+
+</LinearLayout>

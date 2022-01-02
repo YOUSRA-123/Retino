@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    tools:context=".PageAcceuil">
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="73dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logoeye"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="RetinoLab"
+        android:textColor="#166BBB"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/image_view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_view2"
+        android:layout_width="327dp"
+        android:layout_height="163dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bienvenue"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/foursBtn"
+        android:layout_width="225dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttonstyle"
+        android:gravity="center_horizontal"
+        android:text="SE CONNECTER"
+        app:backgroundTint="#1977cc"
+        app:layout_constraintBottom_toTopOf="@+id/image_view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_view3"
+        android:layout_width="73dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        android:foregroundGravity="center"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/login"
+        app:layout_constraintBottom_toTopOf="@+id/foursBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_view4"
+        android:layout_width="73dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="15dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/robot"
+        app:layout_constraintBottom_toTopOf="@+id/chatbotBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <Button
+        android:id="@+id/chatbotBtn"
+        android:layout_width="214dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Accéder au chatbot"
+        app:backgroundTint="#1977cc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="Le rétinoblastome est le cancer intraoculaire le plus fréquent, survenant quasiexclusivement chez l’enfant. RétinoLab, est votre unique application de gestion de la Rétinoblastome, et qui répondra à toutes vos questions sur la maladie à travers un chatbot intégré. En plus l'application, offre un service de bénévolat pour tout patient n'ayant pas les moyens de payer une consultation."
+        app:layout_constraintBottom_toTopOf="@+id/image_view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
